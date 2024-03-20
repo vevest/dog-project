@@ -1,0 +1,17 @@
+/* VARIABLER*/
+$white: #FFF9F5; 
+$black: #111111;
+$green: #56C932;
+$kaki: #A2C932;
+$rust: #C95A32;
+$grey: #595143;
+
+@mixin button{
+    background-color: $green;
+    color: $white;
+
+    .button:hover{
+        background-color: $white;
+        color: $green;
+    }
+}
