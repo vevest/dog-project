@@ -2,10 +2,51 @@
 
 header{
     background-color: partials.$kaki;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav{
+        :hover{
+            color:partials.$white;
+        }
+    
+        :active{
+            color: partials.$rust;
+        }
+
+    }
+
+    a{
+        padding-right: 40px;
+        color: partials.$grey;
+
+    }
+
+    .logo{
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
 }
+
 
 body{
     background-color: partials.$white;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+
+    .container1{
+        img{
+            width: 100%;
+            position: relative;
+        }
+    }
+    
+    
 }
 
 footer{

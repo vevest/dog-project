@@ -1,10 +1,35 @@
 /* VARIABLER*/
 header {
   background-color: #A2C932;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav :hover {
+  color: #FFF9F5;
+}
+header nav :active {
+  color: #C95A32;
+}
+header a {
+  padding-right: 40px;
+  color: #595143;
+}
+header .logo {
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 body {
   background-color: #FFF9F5;
+  padding: 0;
+  margin: 0;
+}
+
+main .container1 img {
+  width: 100%;
+  position: relative;
 }
 
 footer {
