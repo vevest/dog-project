@@ -6,6 +6,9 @@ header {
   align-items: center;
   z-index: 100;
 }
+header nav {
+  z-index: 110;
+}
 header nav :hover {
   color: #FFF9F5;
 }

@@ -8,6 +8,7 @@ header{
     z-index: 100;
 
     nav{
+        z-index: 110;
         :hover{
             color:partials.$white;
         }
