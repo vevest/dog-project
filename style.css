@@ -54,6 +54,7 @@ main .container1 .btn {
   position: absolute;
   margin-top: 7%;
   margin-left: 22%;
+  filter: drop-shadow(grey 2px 3px 3px);
 }
 main .container1 h2 {
   margin-top: -30px;
@@ -97,14 +98,16 @@ main .container2 .btn {
   place-self: center;
   margin-bottom: 7rem;
   margin-top: 3rem;
+  filter: drop-shadow(grey 1px 1px 1px);
 }
 main .container3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-right: 6%;
   margin-left: 6%;
-  margin-bottom: 14%;
+  margin-bottom: 12%;
   background-color: rgba(163, 201, 50, 0.5411764706);
+  filter: drop-shadow(grey 1px 3px 3px);
 }
 main .container3 .textbox {
   grid-column: 1/2;

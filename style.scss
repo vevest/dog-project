@@ -67,6 +67,7 @@ main{
             position: absolute;
             margin-top: 7%;
             margin-left: 22%;
+            filter: drop-shadow(grey 2px 3px 3px );
         }
 
         h2{
@@ -119,6 +120,7 @@ main{
             place-self: center;
             margin-bottom: 7rem;
             margin-top: 3rem;
+            filter: drop-shadow(grey 1px 1px 1px );
         }
     }
 
@@ -127,8 +129,10 @@ main{
         grid-template-columns: 1fr 1fr;
         margin-right: 6%;
         margin-left: 6%;
-        margin-bottom: 14%;
+        margin-bottom: 12%;
         background-color: #a3c9328a;
+        filter: drop-shadow(grey 1px 3px 3px );
+        
 
         .textbox{
             grid-column: 1/2;
