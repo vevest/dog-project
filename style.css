@@ -197,6 +197,50 @@ main .container5 .line {
   height: 2px;
   margin-bottom: 4rem;
 }
+main .container4 h2 {
+  padding-left: 4rem;
+}
+main .container4 p {
+  padding: 0 2rem 1rem 2rem;
+}
+main .container4 .training-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  padding-top: 0;
+}
+main .container4 .box {
+  width: 18rem;
+  height: 20rem;
+  border-radius: 0.8rem;
+  margin: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  z-index: 20;
+  border: #A2C932 solid 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  background-color: none;
+}
+main .container4 .box:hover {
+  border: none;
+  top: -10px;
+  background-image: linear-gradient(#FFF9F5, #A2C932);
+}
+main .container4 .box:hover > .service-btn {
+  background-color: #F7F7F7;
+  border: none;
+  color: #111111;
+}
+main .container4 .btn {
+  width: 6rem;
+}
 
 footer {
   margin: 0;
