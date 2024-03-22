@@ -198,7 +198,11 @@ main .container5 .line {
   margin-bottom: 4rem;
 }
 main .container4 h2 {
-  padding-left: 4rem;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 1rem;
+  padding-top: 4rem;
+  font-size: 35px;
 }
 main .container4 p {
   padding: 0 2rem 1rem 2rem;
