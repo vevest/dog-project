@@ -40,7 +40,7 @@ body{
 }
 
 main{
-
+    
     .container1{
         z-index: 50;
 
@@ -177,7 +177,6 @@ main{
 
     }
     
-    
 }
 
 footer{
@@ -268,3 +267,22 @@ a{
         color: partials.$green;
     }
 }
+
+
+
+@media only screen and (max-width: 500px){
+
+    
+    
+
+
+
+
+
+
+
+
+
+}
+
+
