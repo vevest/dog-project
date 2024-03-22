@@ -176,6 +176,71 @@ main{
 
 
     }
+
+    .green-box{
+        background-color: #a3c9328a;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        width: 60%;
+        margin: auto;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: partials.$black;
+
+        .divers{
+            font-size: 18px;
+            font-style: italic;
+            color: partials.$grey;
+            font-weight: 500;
+        }
+
+        h2{
+            font-size: 20px;
+            font-weight: 550;
+
+        }
+    }
+
+    .white-box{
+        background-color: partials.$white;
+        border: #a3c9328a solid 1px;
+        padding-left: 1.9rem;
+        padding-right: 1.9rem;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        width: 60%;
+        margin: auto;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: partials.$black;
+        margin-bottom: 4rem;
+
+        p{
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+    }
+
+    .container5{
+
+        h3{
+            padding-top: 4rem;
+            padding-left: 6rem;
+            margin-bottom: 2px;
+            color: partials.$black;
+            font-size: 23px;
+        }
+
+        .line{
+            margin: auto;
+            background-color: partials.$kaki;
+            width: 85%;
+            height: 2px;
+            margin-bottom: 4rem;
+        }
+    }
     
 }
 

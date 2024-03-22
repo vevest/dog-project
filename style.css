@@ -143,6 +143,60 @@ main .container3 .dogpic2 {
   -o-object-fit: cover;
      object-fit: cover;
 }
+main .green-box {
+  background-color: rgba(163, 201, 50, 0.5411764706);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  width: 60%;
+  margin: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #111111;
+}
+main .green-box .divers {
+  font-size: 18px;
+  font-style: italic;
+  color: #595143;
+  font-weight: 500;
+}
+main .green-box h2 {
+  font-size: 20px;
+  font-weight: 550;
+}
+main .white-box {
+  background-color: #FFF9F5;
+  border: rgba(163, 201, 50, 0.5411764706) solid 1px;
+  padding-left: 1.9rem;
+  padding-right: 1.9rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  width: 60%;
+  margin: auto;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #111111;
+  margin-bottom: 4rem;
+}
+main .white-box p {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+main .container5 h3 {
+  padding-top: 4rem;
+  padding-left: 6rem;
+  margin-bottom: 2px;
+  color: #111111;
+  font-size: 23px;
+}
+main .container5 .line {
+  margin: auto;
+  background-color: #A2C932;
+  width: 85%;
+  height: 2px;
+  margin-bottom: 4rem;
+}
 
 footer {
   margin: 0;
