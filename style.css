@@ -241,6 +241,11 @@ main .container4 .box:hover > .service-btn {
 main .container4 .btn {
   width: 6rem;
 }
+main .container4 .btn:hover {
+  color: #56C932;
+  background-color: #FFF9F5;
+  border: #56C932 solid 1px;
+}
 
 footer {
   margin: 0;
@@ -314,8 +319,4 @@ a {
   width: 10%;
   text-align: center;
   border-radius: 8px;
-}
-.btn .btn:hover {
-  background-color: #FFF9F5;
-  color: #56C932;
 }/*# sourceMappingURL=style.css.map */

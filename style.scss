@@ -298,6 +298,13 @@ main{
         .btn{
             width: 6rem;
         }
+        .btn:hover{
+            color: partials.$green;
+            background-color: partials.$white;
+            border: partials.$green solid 1px;
+        }
+
+        
 
 
 
@@ -395,11 +402,9 @@ a{
     text-align: center;
     border-radius: 8px;
 
-    .btn:hover{
-        background-color: partials.$white;
-        color: partials.$green;
-    }
 }
+
+
 
 
 
